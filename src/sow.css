@@ -109,7 +109,7 @@ html.lenis, html.lenis body { height: auto; }
 .sg-top__link:hover { text-decoration-color: var(--sg-rose); }
 .sg-top__link:focus-visible { outline: 1px solid currentColor; outline-offset: 4px; }
 .sg-top__msg { color: var(--sg-rose); white-space: nowrap; }
-.sg-top__c { color: var(--sg-cream); font-size: 13px; letter-spacing: 0.32em; padding-left: 0.32em; }
+.sg-top__c { color: var(--sg-cream); font-size: 22px; font-style: italic; font-weight: 700; letter-spacing: 0.24em; padding-left: 0.24em; }
 .sg-top__r { justify-self: end; display: inline-flex; align-items: center; }
 .sg-top__join {
   pointer-events: auto;
@@ -291,7 +291,7 @@ html.lenis, html.lenis body { height: auto; }
 @media (max-width: 699px) {
   .sg-top { grid-template-columns: 1fr auto 1fr; }
   .sg-top__msg { display: none; }
-  .sg-top__c { font-size: 12px; }
+  .sg-top__c { font-size: 17px; }
   .sg-top__join { padding: 8px 11px; }
   .sg-head { top: 66px; font-size: clamp(42px, 12vw, 62px); }
   .sg-sub { left: 16px; right: 16px; width: auto; bottom: 78px; }
