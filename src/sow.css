@@ -192,7 +192,9 @@ html.lenis, html.lenis body { height: auto; }
   pointer-events: none;
   background: linear-gradient(to top, rgba(20, 10, 8, 0.78), transparent 60%);
 }
-.sg-final__title { margin: 0 0 28px; padding-bottom: 0.12em; font: italic 400 clamp(84px, 12vw, 240px)/0.9 var(--sg-serif); letter-spacing: -0.03em; }
+.sg-final__title { margin: 0 0 28px; padding-bottom: 0.12em; font: italic 400 clamp(84px, 12vw, 240px)/0.9 var(--sg-serif); letter-spacing: -0.03em;
+  /* soft dark halo so the title holds up over the bright sky */
+  text-shadow: 0 2px 6px rgba(20, 10, 8, 0.45), 0 6px 28px rgba(20, 10, 8, 0.55), 0 0 60px rgba(20, 10, 8, 0.35); }
 .sg-final__title em { color: #fbd9c4; }
 .sg-final__btn { border: 1px solid rgba(248, 230, 218, 0.4); padding: 12px 16px; }
 .sg-final__btn:hover { background: var(--sg-cream); border-color: var(--sg-cream); color: var(--sg-ink); }
