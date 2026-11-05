@@ -1,0 +1,8 @@
+node_modules
+dist
+data
+.env*
+.claude/
+.DS_Store
+# separate earlier project, not part of this site
+waitlist/
