@@ -192,8 +192,8 @@ html.lenis, html.lenis body { height: auto; }
   pointer-events: none;
   background: linear-gradient(to top, rgba(20, 10, 8, 0.78), transparent 60%);
 }
-.sg-final__title { margin: 0 0 28px; padding-bottom: 0.1em; font: 400 clamp(72px, 10.5vw, 210px)/0.88 var(--sg-serif); letter-spacing: -0.04em; }
-.sg-final__title em { font-style: italic; color: #fbd9c4; }
+.sg-final__title { margin: 0 0 28px; padding-bottom: 0.12em; font: italic 400 clamp(84px, 12vw, 240px)/0.9 var(--sg-serif); letter-spacing: -0.03em; }
+.sg-final__title em { color: #fbd9c4; }
 .sg-final__btn { border: 1px solid rgba(248, 230, 218, 0.4); padding: 12px 16px; }
 .sg-final__btn:hover { background: var(--sg-cream); border-color: var(--sg-cream); color: var(--sg-ink); }
 
@@ -211,7 +211,7 @@ html.lenis, html.lenis body { height: auto; }
 
 .wl { display: flex; flex-direction: column; gap: 16px; }
 .wl__step { margin: 0; font: 500 10.5px/1.4 var(--sg-mono); letter-spacing: 0.16em; text-transform: uppercase; color: var(--sg-rose); }
-.wl__step--end { text-align: right; }
+.wl__step--end { padding: 6px 0 14px; text-align: center; font-size: 15px; font-weight: 700; letter-spacing: 0.2em; color: var(--sg-cream); border-bottom: 1px solid rgba(233, 180, 154, 0.25); }
 .wl__pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .wl__title { margin: -4px 0 0; font: 400 32px/1.05 var(--sg-serif); letter-spacing: -0.01em; outline: none; }
 .wl__note { margin: 0; font-size: 14px; line-height: 1.55; color: var(--sg-soft); }
@@ -299,11 +299,11 @@ html.lenis, html.lenis body { height: auto; }
   .sg-dock { left: 12px; right: 12px; bottom: 18px; display: flex; justify-content: center; }
   .sg-dock button { padding: 11px 10px; letter-spacing: 0.1em; }
   .sg-final { padding: 72px 16px 20px; gap: 18px; background: linear-gradient(to top, rgba(20, 10, 8, 0.85) 30%, rgba(20, 10, 8, 0.35) 75%, rgba(20, 10, 8, 0.2)); }
-  .sg-final__title { font-size: clamp(50px, 14vw, 76px); }
+  .sg-final__title { font-size: clamp(58px, 16vw, 92px); }
   .sg-final__card { padding: 18px; border-radius: 18px; }
   .wl { gap: 13px; }
   .wl__input { font-size: 16px; } /* no iOS zoom on focus */
-  .wl__step--end { text-align: right; }
+  .wl__step--end { padding: 6px 0 14px; text-align: center; font-size: 15px; font-weight: 700; letter-spacing: 0.2em; color: var(--sg-cream); border-bottom: 1px solid rgba(233, 180, 154, 0.25); }
 .wl__pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .wl__title { font-size: 28px; }
 }
